@@ -5,7 +5,7 @@ HOST = '127.45.43.1'
 LPORT = 12345
 server = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
 try:
-    server.bind((HOST ,4567))
+    server.bind((HOST ,80))
     server.listen(5)
     print("The listener is open")
 except:
