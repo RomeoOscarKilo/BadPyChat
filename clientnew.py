@@ -6,7 +6,7 @@ import threading
 
 client = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
 server = "127.45.43.1"
-client.connect((server,4567))
+client.connect((server,80))
 test = False
 while test == True:
     message = client.recv(1048)
