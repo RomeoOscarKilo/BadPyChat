@@ -1,7 +1,7 @@
 import socket
 import threading
 
-HOST = '127.45.43.1'
+HOST = '127.0.0.1'
 LPORT = 12345
 server = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
 try:
